@@ -37,7 +37,6 @@ class SignUp extends React.Component {
     } catch (err) {
       console.log("Error: ", err.message);
     }
-    console.log("Trying to set up github on webstorm");
   };
 
   handleChange = (event) => {
