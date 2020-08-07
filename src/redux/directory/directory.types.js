@@ -1,0 +1,1 @@
+export const GET_DIRECTORY = "GET_DIRECTORY";
