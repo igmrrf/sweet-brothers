@@ -1,5 +1,8 @@
-import { GET_DIRECTORY } from "./directory.types";
+import { GET_COLLECTIONS, GET_SECTIONS } from "./directory.types";
 
-export const getDirectory = () => ({
-  type: GET_DIRECTORY,
+export const getCollections = () => ({
+  type: GET_COLLECTIONS,
+});
+export const getSections = () => ({
+  type: GET_SECTIONS,
 });

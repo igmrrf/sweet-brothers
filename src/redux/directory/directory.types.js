@@ -1,1 +1,2 @@
-export const GET_DIRECTORY = "GET_DIRECTORY";
+export const GET_COLLECTIONS = "GET_COLLECTIONS";
+export const GET_SECTIONS = "GET_SECTIONS";
