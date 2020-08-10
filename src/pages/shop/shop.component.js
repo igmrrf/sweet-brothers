@@ -25,8 +25,8 @@ class ShopPage extends React.Component {
 
     const collectionRef = firestore.collection("collections");
 
-    collectionRef.onSnapshot(async (snapshot) => {
-      const collectionMap = await convertCollectionsSnapshotToMap(snapshot);
+    collectionRef.get().then((snapshot) => {
+      const collectionMap = convertCollectionsSnapshotToMap(snapshot);
       updateCollections(collectionMap);
       this.setState({ loading: false });
     });
