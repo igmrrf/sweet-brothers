@@ -6,7 +6,7 @@
     "@testing-library/jest-dom": "5.11.2",
     "@testing-library/react": "10.4.8",
     "@testing-library/user-event": "12.1.0",
-    "firebase": "7.17.1",
+    "firebase": "7.18.0",
     "node-sass": "4.14.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
@@ -17,9 +17,9 @@
     "redux": "4.0.5",
     "redux-logger": "3.0.6",
     "redux-persist": "6.0.0",
-    "redux-thunk": "^2.3.0",
+    "redux-thunk": "2.3.0",
     "reselect": "4.0.0",
-    "styled-components": "^5.1.1"
+    "styled-components": "5.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
