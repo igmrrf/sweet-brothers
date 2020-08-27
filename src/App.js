@@ -33,9 +33,8 @@ class App extends React.Component {
             ...snapshot.data(),
           });
         });
-      } else {
-        setCurrentUser(userAuth);
       }
+      setCurrentUser(userAuth);
     });
   }
   componentWillUnmount() {
@@ -49,7 +48,7 @@ class App extends React.Component {
         <Header />
         <Switch>
           <Route exact={true} path={"/"} component={Homepage} />
-          <Route exact={true} path={"/shop"} component={ShopPage} />
+          <Route path={"/shop"} component={ShopPage} />
           <Route
             exact={true}
             path={"/signin"}
