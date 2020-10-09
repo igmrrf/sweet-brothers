@@ -1,11 +1,13 @@
 {
-  "name": "crown-clothing",
+  "name": "sweet-brothers",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:5000",
   "dependencies": {
     "@testing-library/jest-dom": "5.11.3",
     "@testing-library/react": "10.4.8",
     "@testing-library/user-event": "12.1.0",
+    "axios": "^0.20.0",
     "firebase": "7.18.0",
     "node-sass": "4.14.1",
     "react": "16.13.1",
